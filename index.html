@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CV page</title>
+   
+  </head>
+  <body>
+    <header class="header">
+      <img src="avatar.jpg" alt="My photo" class="avatar">
+      <h1 class="header_title">Danila CV</h1>
+      <h2 class="header_subtitle">Frontend Developer</h2>
+    </header>
+
+    <main>
+      <section class="skills">
+        <h3>Skills</h3>
+        <details>
+          <summary>Skills list:</summary>
+
+          <ol>
+            <li>1. HTML</li>
+            <li>2. JavaScript</li>
+            <li>3. CSS</li>
+            <li>4. react</li>
+            <li>5. TypeScript</li>
+          </ol>
+        </details>
+      </section>
+      <article class="article">
+        <h4>Short article about me</h4>
+
+        <p>
+          Далеко-далеко за словесными горами в стране гласных и согласных живут
+          рыбные тексты. Одна бросил великий выйти домах!
+        </p>
+      </article>
+      <section class="gallery">
+        <h3>Gallery</h3>
+        <img src="https://placehold.co/250x250" alt="placehold image">
+        <img src="https://placehold.co/250x250" alt="placehold image">
+        <img src="https://placehold.co/250x250" alt="placehold image">
+      </section>
+      <hr class="separator">
+      <section>
+        <iframe
+          class="video"
+          src="https://www.youtube.com/embed/Zt-HCSJJxP0"
+          title="ТРИ УРОВНЯ вашей ЛИЧНОСТИ. КТО ТЫ? — ТОПЛЕС"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </section>
+
+      <section class="hobbies">
+        <h4>My hobbies:</h4>
+        <details>
+          <summary>Hobbies:</summary>
+
+          <ul>
+            <li>1. Skiing</li>
+            <li>2. Video editing</li>
+            <li>3. Audio books</li>
+          </ul>
+        </details>
+      </section>
+      <hr class="separator">
+      <section class="ed">
+        <table class="ed_table">
+          <thead>
+            <tr>
+              <!--строка-->
+              <th>School / University</th>
+              <!--колонки-->
+              <th>Profession</th>
+              <!--колонки-->
+              <th>Year</th>
+              <!--колонки-->
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>It shool1</th>
+              <th>Angular Dev</th>
+              <th>2019</th>
+            </tr>
+            <tr>
+              <th>It shool2</th>
+              <th>React Dev</th>
+              <th>2020</th>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section class="quote">
+        <blockquote>Действия - это единственный путь к успеху</blockquote>
+      </section>
+      <section class="interaction">
+        <form action="https://ya.ru" method="get" class="form" target="_blank">
+          
+          <fieldset>
+             <legend>Required fields:</legend>
+             
+                <label for="firstName-id">First Name:</label>
+                <input type="text" id="firstName-id" placeholder="First Name" required class="form_control">
+             
+            
+                <label for="lastName-id">Last Name:</label>
+                <input type="text" id="lastName-id" placeholder="Last Name" required class="form_control">
+            
+             
+                <label for="email-id">Email:</label>
+                <input type="text" id="email-id" placeholder="Email" required class="form_control">
+             
+          </fieldset>
+          <br>
+          <textarea 
+          name="questions" 
+          cols="30" 
+          rows="4" 
+          class="form_control control--text"
+          placeholder="your questions"
+          ></textarea>
+        
+          <button type="submit" class="form_submit">Submit</button>
+          <br>
+        </form>
+      </section>
+    </main>
+    <hr class="separator">
+
+    <footer>
+        <address>
+            <a href="mailto:it@mail.ru" class="contacts_link">it@mail.ru</a>
+            <br><br>
+            <a href="tel:89231528903" class="contacts_link">89231528903</a>
+        </address>
+    </footer>
+    
+  </body>
+</html>

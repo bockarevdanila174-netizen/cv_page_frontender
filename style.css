@@ -1,0 +1,80 @@
+body {
+  /* background-color: rgb(244, 241, 238); */
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.header {
+  text-align: center;
+}
+.avatar {
+  width: 300px;
+}
+.header_title {
+  font-size: 30px;
+}
+.header_subtitle {
+  color: rgb(118, 21, 21);
+}
+main {
+  border: 1px solid rgb(12, 22, 17);
+  text-align: center;
+}
+.skills ol {
+  list-style: none;
+}
+.separator{
+  width: 50%;
+  height: 2px;
+  background-color: rgb(96, 96, 108);
+}
+.video {
+  width: 800px;
+  height: 400px;
+}
+.ed_table {
+  border-collapse: collapse;
+  width: 100%;
+}
+.ed_table th,
+.ed_table td {
+  border: 1px solid black;
+  padding: 10px;
+}
+.quote {
+  font-size: 32px;
+}
+fieldset {
+  border: 2px solid black;
+  padding: 10px;
+}
+legend {
+  font-weight: bold;
+}
+
+.form {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.form_control {
+  width: 100%;
+}
+
+.control--text {
+width: 60%;
+}
+
+.form_submit {
+  display: block;
+  margin: 0 auto;
+}
+footer{
+    height: 100px;
+    text-align: center;
+    background-color: rgb(234, 236, 238);
+}
+.contacts_link{
+    text-decoration: none;
+    color: #000;
+}
